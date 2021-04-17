@@ -1,8 +1,5 @@
 package br.com.alura.escola.dominio.aluno;
 
-import br.com.alura.escola.dominio.comum.CPF;
-import br.com.alura.escola.dominio.comum.Email;
-
 public class FabricaDeAluno {
 
 	private Aluno aluno;

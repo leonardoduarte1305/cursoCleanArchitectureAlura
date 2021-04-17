@@ -1,4 +1,4 @@
-package br.com.alura.escola.dominio.comum;
+package br.com.alura.escola.dominio.aluno;
 
 public class Telefone {
 
