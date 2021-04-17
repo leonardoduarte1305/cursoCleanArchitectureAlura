@@ -27,4 +27,16 @@ public class Aluno {
 		this.telefones.add(new Telefone(ddd, numero));
 	}
 
+	public String getCpf() {
+		return cpf.getNumero();
+	}
+ 
+	public String getNome() {
+		return this.nome;
+	}
+
+	public String getEmail() {
+		return this.email.getEndereco();
+	}
+
 }
