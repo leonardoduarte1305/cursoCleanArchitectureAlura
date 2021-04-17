@@ -17,6 +17,8 @@ public class Aluno {
 
 	private List<Telefone> telefones = new ArrayList<>();
 
+	private String senha;
+
 	public Aluno(CPF cpf, String nome, Email email) {
 		this.cpf = cpf;
 		this.nome = nome;
@@ -30,7 +32,7 @@ public class Aluno {
 	public String getCpf() {
 		return cpf.getNumero();
 	}
- 
+
 	public String getNome() {
 		return this.nome;
 	}
