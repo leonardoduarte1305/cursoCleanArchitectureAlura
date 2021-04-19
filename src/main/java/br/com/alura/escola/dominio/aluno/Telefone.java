@@ -8,11 +8,11 @@ public class Telefone {
 	public Telefone(String ddd, String numero) {
 
 		if (ddd == null || !ddd.matches("\\d{2}")) {
-			throw new IllegalArgumentException("DDD inválido.");
+			throw new IllegalArgumentException("DDD invalido.");
 		}
 
 		if (numero == null || !numero.matches("\\d{4,5}\\-\\d{4}")) {
-			throw new IllegalArgumentException("Número inválido.");
+			throw new IllegalArgumentException("Numero invalido.");
 		}
 
 		this.ddd = ddd;
